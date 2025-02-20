@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -93,11 +93,11 @@ function App() {
             </p>
           </div>
           <div className="flex justify-center md:justify-end">
-            <img 
-              src="../public/images/vinayKeshari.jpg" 
-              alt="Profile" 
-              className="rounded-full w-64 h-64 object-cover shadow-xl"
-            />
+          <img 
+  src="/images/vinayKeshari.jpg" 
+  alt="Profile" 
+  className="rounded-full w-64 h-64 object-cover shadow-xl"
+/>
           </div>
         </div>
       </section>
@@ -159,9 +159,9 @@ function App() {
                       </span>
                     ))}
                   </div>
-                  <a href="#" className="inline-flex items-center text-indigo-600 hover:text-indigo-700">
+                  {/* <a href="#" className="inline-flex items-center text-indigo-600 hover:text-indigo-700">
                     View Project <ExternalLink size={16} className="ml-1" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             ))}
